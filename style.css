@@ -223,21 +223,21 @@ select{
     margin-top: 50px;
     
 }
-#s2h{
+.s2h{
     /* border: 1px solid red; */
     line-height: 70px;
 }
-#s2h>h1{
+.s2h>h1{
     font-size: 45px;
     font-weight: 550;
     color: rgb(39, 39, 39);
 }
-#s2h>h2{
+.s2h>h2{
     color:rgb(97, 97, 97) ;
     font-weight: lighter;
 }
 
-#s2card{
+.s2card{
     /* border: 1px solid red; */
     width: 99%;
     height: 370px;
@@ -247,7 +247,7 @@ select{
 
 }
 
-#s2card>div{
+.s2card>div{
     border: 1px solid  rgb(185, 185, 185);
     width: 28%;
     height: 370px;
@@ -256,19 +256,19 @@ select{
     
 }
 
-#s2card>div>img{
+.s2card>div>img{
     width: 100%;
     height: 190px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     object-fit: cover;
 }
-#s2card h2{
+.s2card h2{
     color: rgb(51, 51, 51);
     margin-top: 20px;
     font-weight:600;
 }
-#s2card div a button{
+.s2card div a button{
     color: white;
     background-color: rgb(255, 69, 69);
     height: 50px;
@@ -279,5 +279,180 @@ select{
     font-size: 17px;
 }
 
+        /* section3 */
+
+.section3{
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 90%;
+    height: 680px;
+    margin: 100px auto auto auto;
+    background-color: rgb(255, 69, 69);
+    
+
+}
+.s3card>div{
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 30%;
+    height: 390px;
+    text-align: center;
+    background-color: white;
+}
+.s3h{
+    /* border: 1px solid red; */
+    text-align: center;
+    
+}
+
+.s3h>h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 50px;
+    color: white;
+}
+.s3h>h3{
+    margin-top: 35px;
+    font-weight: 500;
+    color: white;
+}
+.s3card{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+   
+}
+.s3card img{
+    width: 40%;
+    height: 150px;
+    object-fit: cover;
+    /* border: 1px solid red; */
+    
+}
+.s3card p{
+    /* border: 1px solid red; */
+    text-align: center;
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+.s3card h3{
+    font-weight: 600;
+    margin-top: 30px;
+
+}
+
+/* section4 */
 
 
+.section4{
+    border: 1px solid red;
+    text-align: center;
+    margin-top: 50px;
+    height: 520px;
+    
+}
+.s4h{
+    /* border: 1px solid red; */
+    line-height: 70px;
+}
+.s4h>h1{
+    font-size: 50px;
+    font-weight: 550;
+    color: rgb(39, 39, 39);
+}
+.s4card{
+    /* border: 1px solid red; */
+    width: 99%;
+    height: 370px;
+    margin: 35px auto auto auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.s4card>div{
+    border: 1px solid  rgb(185, 185, 185);
+    width: 21%;
+    height: 400px;
+    border-radius: 10px;
+    
+    
+}
+
+.s4card>div>img{
+    width: 100%;
+    height: 190px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    object-fit: cover;
+}
+.s4card h2{
+    color: rgb(51, 51, 51);
+    margin-top: 20px;
+    font-weight:600;
+}
+.s4card h4{
+    font-weight: 400;
+    margin-top: 20px;
+}
+.s4card div a button{
+    color: white;
+    background-color: rgb(255, 69, 69);
+    height: 50px;
+    width: 150px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 17px;
+}
+
+/* section5 */
+
+.section5{
+    border: 1px solid red;
+    width: 100%;
+    height: 500px;
+}
+.section5>div{
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 20px;
+    width: 45%;
+    height: 260px;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+#idimg{
+    border: 1px solid rgb(179, 177, 177);
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: rgb(252, 198, 207);
+    display: flex;
+    gap: 35px;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+#idimg>img{
+    width: 21px;
+    height: 21px;
+    margin-left: 16px;
+    margin-top: 13px;
+    object-fit: cover;
+}
+.section5>div>p{
+    width: 90%;
+    margin-left: 33px;
+    margin-top: 50px;
+    color:  rgb(155, 155, 155);
+    font-weight: 400;
+}
+.section5>div>a{
+    text-decoration: none;
+    color: red;
+    margin-left: 33px;
+}
