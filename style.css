@@ -3,6 +3,7 @@
     padding: 0px;
     font-family: Poppins;
     box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 @font-face {
     font-family: Poppins;
@@ -128,7 +129,7 @@
     color:rgb(97, 97, 97);
     margin-top: 15px;
 }
-input{
+ .location{
     width: 550px;
     height: 70px;
     border-color: red;
@@ -136,20 +137,24 @@ input{
     outline: none;
     padding-left: 60px;
     font-size: 17px;
-    
-    
-}
-.location{
     background-image: url(img/locat.png);
     background-repeat: no-repeat;
     background-size: 12%;
     background-position: left;
     margin-top: 10px;
-
+    
+    
 }
+
 .check-in, .check-out{
     width: 275px;
     margin-top: 25px;
+    height: 70px;
+    border-color: red;
+    border-radius: 6px;
+    outline: none;
+    padding-left: 60px;
+    font-size: 17px;
 }
 .check-in{
     background-image: url(img/cheak-in.png);
@@ -165,7 +170,7 @@ input{
     background-position: left;
 
 }
-::placeholder{
+.location::placeholder{
     font-family: "Google Sans",Roboto,Arial,sans-serif;
     font-size: 17px;
     color: black;
@@ -217,7 +222,7 @@ select{
 }
 /* seaction2 */
 
-.section2{
+.section2{  
     text-align: center;
     margin-top: 50px;
     
@@ -279,7 +284,6 @@ select{
         /* section3 */
 
 .section3{
-    border: 1px solid red;
     border-radius: 20px;
     width: 90%;
     height: 680px;
@@ -340,7 +344,6 @@ select{
 
 
 .section4{
-    border: 1px solid red;
     text-align: center;
     margin-top: 50px;
     height: 520px;
@@ -457,6 +460,7 @@ select{
 }
 
 .s6h>h1{
+    text-align: center;
     font-size: 52px;
     font-weight: 550;
     color: rgb(39, 39, 39);
@@ -464,7 +468,7 @@ select{
 
 .s6card{
     width: 99%;
-    height: 370px;
+    height: 500px;
     margin: 75px auto auto auto;
     display: flex;
     justify-content: space-evenly;
@@ -504,6 +508,142 @@ select{
 .s6card>div>a{
     text-decoration: none;
     color: red;
+    margin-left: 50px;
     margin-left: 10px;
-          
+}
+
+/* section7 */
+
+.section7{
+    border-radius: 20px;
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+    background-image: url(img/s7bgimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:  rgba(0, 0, 0, 0.5) 0px 0px 0px 100vmax inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section7 .s7h{
+    margin-top: 130px;
+    line-height: 90px;
+    color: white;
+}
+.section7 .s7h h1{
+    font-size: 65px;
+}
+
+.section7 button{
+
+    width: 250px;
+    height: 85px;
+    border: none;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Poppins;
+    padding-left: 0%;
+    margin-top: 40px;
+} 
+  /* section8  */
+
+.section8{
+    width: 90%;
+    height: 220px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color:rgb(241, 248, 255);
+}
+.section8 .s8h{
+    margin-top: 30px;
+    line-height: 50px;
+}
+.section8 .s8h>input{
+    width: 68%;
+    height: 25%;
+    outline: 1px;
+    border-color: rgba(138, 138, 138, 0.479);
+    border-radius: 6px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.section8 .s8h>button{
+    width: 30%;
+    height: 25%;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+    border: none;
+    
+}
+hr{
+    height: 4px;
+    border: none;
+    background-color: red;
+}
+
+.footer{
+    border-bottom: 3px solid rgb(192, 192, 255);
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .about{
+    width: 25%;
+    margin-left: 40px;
+    margin-top: 65px;
+    
+}
+.footer .about h3{
+    color: red;
+    font-weight: 300;
+}
+.footer .about p{
+    font-weight: 200;
+    margin-top: 40px;
+    color: rgb(152, 182, 172);
+}
+
+.footer .about a,a>i{
+    text-decoration: none;
+    color: rgb(152, 182, 172);
+    font-size: 18px;
+}
+.footer .about img{
+    width: 45%;
+    margin-top: 8px;
+}
+
+.social-icons h4{
+    margin-top: 10px;
+    color: red;
+    font-size:18px ;
+    margin-left: 20px;
+
+}
+.social-icons>i{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: red;
+    font-size:25px;
+}
+
+.note{
+    color:  rgb(94, 94, 104);   
+    text-align: center;
+    margin-top: 25px;
 }
